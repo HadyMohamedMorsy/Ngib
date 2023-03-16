@@ -3689,6 +3689,13 @@ button#up {
   border-radius: 100%;
   transition: all 0.2s linear;
   margin-inline: 10px;
+  background-color: #ccc;
+}
+.developers .flex-box .our-developers img, .single-news .flex-box .our-developers img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (max-width: 650px) {
   .developers .flex-box .our-developers, .single-news .flex-box .our-developers {
