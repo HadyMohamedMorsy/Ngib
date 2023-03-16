@@ -77,6 +77,18 @@ html[dir=rtl] {
 }
 
 /* =========== Start Globale Style ============ */
+.cover-wrapper {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+}
+.cover-wrapper .slider-image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+
 .slider-parent-image img {
   height: 350px;
   -o-object-fit: contain;
