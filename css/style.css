@@ -4159,7 +4159,11 @@ button#up {
   margin-bottom: 80px;
   margin-top: 20px;
   row-gap: 30px;
-  align-items: center;
+}
+.developer-single-page .content-details .title-developer {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 @media (max-width: 992px) {
   .developer-single-page {
