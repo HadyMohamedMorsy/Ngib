@@ -89,15 +89,18 @@ html[dir=rtl] {
   height: 100vh;
 }
 
+.slider-parent-image {
+  background-color: #ccc;
+}
 .slider-parent-image img {
-  height: 350px;
+  max-height: 400px;
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
 }
 
 .slider-small-image img {
-  height: 80px;
+  max-height: 80px;
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
