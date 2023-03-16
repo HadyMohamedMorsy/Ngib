@@ -1,3 +1,5 @@
 /ngib
 
-*.scss
+/css/scss
+
+/css/style.scss
