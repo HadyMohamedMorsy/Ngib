@@ -77,9 +77,6 @@ html[dir=rtl] {
 }
 
 /* =========== Start Globale Style ============ */
-.slider-parent-image {
-  background-color: #ccc;
-}
 .slider-parent-image img {
   height: 350px;
   -o-object-fit: contain;
@@ -2295,6 +2292,14 @@ button#up {
   border-color: #aaa;
 }
 
+.hady-mohaemd {
+  font-size: 20px;
+}
+
+.dakhly {
+  font-size: 19px;
+}
+
 /* ========================================
 ============ home page style ==============
 =========================================*/
@@ -3185,6 +3190,7 @@ button#up {
 }
 .single-list .flex-box .box-slider {
   border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
   -webkit-margin-end: 1rem;
           margin-inline-end: 1rem;
   width: 60%;
