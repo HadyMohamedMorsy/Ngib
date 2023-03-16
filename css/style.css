@@ -426,9 +426,7 @@ p {
 .multiselect > .container {
   overflow: auto;
   margin-top: 8px;
-  -webkit-margin-start: -6px;
-          margin-inline-start: -6px;
-  width: 20%;
+  width: 19.2%;
   transition: 0.2s;
   z-index: 99;
   background: #1077a7;
