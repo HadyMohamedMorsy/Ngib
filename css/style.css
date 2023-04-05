@@ -78,6 +78,37 @@ html[dir=rtl] {
 }
 
 /* =========== Start Globale Style ============ */
+.loading {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  inset: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.loading.active {
+  opacity: 0;
+  z-index: -100000000000000000000000;
+}
+.loading .logo-screen {
+  position: relative;
+  transition: opacity 0.5s;
+}
+.loading .logo-screen.logo-active {
+  bottom: 0;
+  opacity: 1 !important;
+  transform: ease-in-out 0.5s;
+}
+.loading .logo-screen.logo-fade {
+  bottom: 150;
+  opacity: 0;
+  transform: ease-in-out 0.5s;
+}
+
 .search-box {
   padding: 1rem;
 }
