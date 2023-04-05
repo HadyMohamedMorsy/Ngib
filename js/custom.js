@@ -85,25 +85,25 @@ new WOW().init();
 
 // init owl carousel
 
-$(document).ready(function() {
-  $(".owl-carousel").owlCarousel({
-    itemsCustom: false,
-    singleItem: false,
-    itemsScaleUp: false,
-    autoplayHoverPause: false,
-    margin: 30,
-    smartSpeed: 700,
-    autoplay: true,
-    loop: true,
-    nav: false,
-    dots: false,
-    responsive: {
-      0: { items: 1 },
-      500: { items: 2 },
-      800: { items: 3 }
-    }
-  });
-});
+// $(document).ready(function() {
+//   $(".owl-carousel").owlCarousel({
+//     itemsCustom: false,
+//     singleItem: false,
+//     itemsScaleUp: false,
+//     autoplayHoverPause: false,
+//     margin: 30,
+//     smartSpeed: 700,
+//     autoplay: true,
+//     loop: true,
+//     nav: false,
+//     dots: false,
+//     responsive: {
+//       0: { items: 1 },
+//       500: { items: 2 },
+//       800: { items: 3 }
+//     }
+//   });
+// });
 
 
 // header-2 script
