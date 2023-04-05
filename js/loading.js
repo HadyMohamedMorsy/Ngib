@@ -8,12 +8,16 @@ function fadeIn() {
     const ScreenLogo = setTimeout(()=>{
         logoScreen.classList.add('logo-active')
         clearTimeout(ScreenLogo);
-    }, 2000)
+    }, 500)
 
     const ScreenSplash = setTimeout(()=>{
         splashScreenForAllPages.classList.add('active');
         clearTimeout(ScreenSplash);
-    }, 3000)
+    }, 1500)
 
-    
+    const indexingScreenSplash = setTimeout(()=>{
+        indexingScreenSplash.classList.add('index');
+        clearTimeout(indexingScreenSplash);
+    }, 1599)
+
 }

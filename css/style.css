@@ -88,11 +88,13 @@ html[dir=rtl] {
   justify-content: center;
   align-items: center;
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 .loading.active {
   opacity: 0;
-  z-index: -100000000000000000000000;
+}
+.loading.index {
+  z-index: -1000000000000;
 }
 .loading .logo-screen {
   position: relative;
