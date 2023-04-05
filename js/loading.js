@@ -1,4 +1,4 @@
-const splashScreen = document.getElementById('splash-screen');
+const splashScreenForAllPages = document.getElementById('splash-screen');
 const logoScreen = document.getElementById('logo-screen');
 
 
@@ -11,7 +11,7 @@ function fadeIn() {
     }, 2000)
 
     const ScreenSplash = setTimeout(()=>{
-        splashScreen.classList.add('active');
+        splashScreenForAllPages.classList.add('active');
         clearTimeout(ScreenSplash);
     }, 3000)
 
