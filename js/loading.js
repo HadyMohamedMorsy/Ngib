@@ -16,7 +16,7 @@ function fadeIn() {
     }, 1500)
 
     const indexingScreenSplash = setTimeout(()=>{
-        indexingScreenSplash.classList.add('index');
+        splashScreenForAllPages.classList.add('index');
         clearTimeout(indexingScreenSplash);
     }, 1599)
 
