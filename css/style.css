@@ -98,6 +98,10 @@ html[dir=rtl] {
 }
 .loading .logo-screen {
   position: relative;
+  width: 300px;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
   transition: opacity 0.5s;
 }
 .loading .logo-screen.logo-active {
